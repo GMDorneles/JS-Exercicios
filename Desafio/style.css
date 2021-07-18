@@ -1,0 +1,117 @@
+body{
+    
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+    color:rgb(138, 43, 226) ;
+    background-color: black;
+}
+p{
+    font-weight: bold;
+}
+div{
+    font-weight: bold;
+}
+h3{
+    color: rgb(231, 29, 188);
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+.title{
+    color:rgb(255, 255, 255) ;
+    font-size: 40px;
+    text-shadow:rgb(138, 43, 226) -2px -2px;
+    margin-bottom: 15px;
+}
+.container{
+    display:flex;
+    width: 440px;
+    margin-top: 50;
+    padding: 20px;
+    flex-direction: column;
+    background-color: rgb(243, 148, 227);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 2px solid rgb(138, 43, 226);
+    padding: 25px;
+  
+}
+.drinkList{
+    background-color: rgb(247, 247, 247);
+}
+.stock{
+    background-color: rgb(247, 247, 247);
+}
+.sold{
+    background-color: rgb(247, 247, 247);
+ 
+}
+#soda{
+    display: inline-block;
+    height: 35px;
+    width: 90px;
+}
+#juice{
+    display: inline-block;
+    height: 35px;
+    width: 90px;
+}
+#water{
+    display: inline-block;
+    height: 35px;
+    width: 90px;
+}
+#sodaE{
+    display: inline-block;
+    height: 35px;
+    width: 90px;
+}
+#juiceE{
+    display: inline-block;
+    height: 35px;
+    width: 90px;
+}
+#waterE{
+    display: inline-block;
+    height: 35px;
+    width: 90px;
+}
+#sodaV{
+    display: inline-block;
+    height: 35px;
+    width: 90px;
+}
+#juiceV{
+    display: inline-block;
+    height: 35px;
+    width: 90px;
+}
+#waterV{
+    display: inline-block;
+    height: 35px;
+    width: 90px;
+}
+select{
+    margin-top:20px;
+    width: 150px;
+    border: 2px solid rgb(138, 43, 226);
+}
+#valor{
+    width: 150px;
+}
+input{
+    border: 2px solid rgb(138, 43, 226);
+    width: 150px;
+}
+input[type=submit] {
+    border-radius: 9px;
+    border: 2px solid rgb(138, 43, 226);
+    background-color: rgb(255, 255, 255);
+    color:rgb(138, 43, 226);
+    font-weight: bold;
+    text-align: center;
+    height: 35px;
+    width: 100px;
+}

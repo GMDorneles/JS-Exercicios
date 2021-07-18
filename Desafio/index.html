@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vending Machine</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">Vending Machine</div>
+        <div class="drinkList">
+           
+            <h3>Drinks</h3>
+            <div id="soda">Soda</div>
+            <div id="juice">Juice</div>
+            <div id="water">Water</div>
+        </div>
+        <div class='stock'>
+            <h3> Estoque</h3>
+            <div id='sodaE'></div>
+            <div id='juiceE'></div>
+            <div id='waterE'></div>
+        </div>
+        <div class='sold'>
+            <h3>Vendidos</h3>
+            <div id='sodaV'></div>
+            <div id='juiceV'></div>
+            <div id='waterV'></div>
+            <form id='my-form'>
+                <select id="drinks"></select>
+                <p>Informe o valor pago:</p>
+                <p><input id='valor' type="number"></p>
+                <p id="button"><input type="submit"></p>
+            </form>
+            <div id="val"></div>
+            <div id="chosen"></div>
+        </div>
+      
+        
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src='index.js'></script>
+</body>
+</html>
